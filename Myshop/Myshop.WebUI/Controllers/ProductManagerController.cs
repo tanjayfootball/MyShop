@@ -22,6 +22,11 @@ namespace Myshop.WebUI.Controllers
             productCategories = new InMemoryRepository<ProductCategory>();
 
         }
+
+        public ProductManagerController()
+        {
+        }
+
         // GET: ProductManager
         public ActionResult Index()
         {
